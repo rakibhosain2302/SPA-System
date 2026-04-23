@@ -1,0 +1,149 @@
+:root {
+  --common-color: #df4401;
+  --text-color: white;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* primary button */
+.btn-primary {
+  border: 3px solid #df4401;
+  background-color: #df4401;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+.btn-primary:hover {
+  border: 3px solid #df4401;
+  background-color: transparent;
+  color: #df4401;
+
+  box-shadow:
+    0 0 20px rgba(255, 0, 0, 0.4),
+    0 0 30px rgba(255, 0, 0, 0.3),
+    0 0 40px rgba(255, 0, 0, 0.2);
+}
+
+.hero-img {
+  background-image: url("./assets/OSS-COVER-1.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  text-align: center;
+  margin-top: 40%;
+}
+
+.hero-content h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: var(--common-color);
+}
+
+.about-content {
+  margin-top: 130px;
+  padding: 20px;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 50px;
+}
+
+.about-content .title-left {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.about-content .decs-left p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-color);
+  text-align: justify;
+}
+
+.about-content .decs-left ul li {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-color);
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.card-right {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  color: var(--text-color);
+  border: 2px solid var(--common-color);
+  transition: all 0.4s ease;
+}
+
+.card-right:hover {
+  border: 2px solid var(--common-color);
+  box-shadow:
+    0 0 20px rgba(255, 0, 0, 0.4),
+    0 0 30px rgba(255, 0, 0, 0.3),
+    0 0 40px rgba(255, 0, 0, 0.2);
+}
+
+.card-right .title-right {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.card-right p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-color);
+  text-align: justify;
+}
+
+.client-section {
+  margin-top: 80px;
+}
+
+.client-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 10px !important;
+  color: var(--common-color);
+}
+
+.client-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-color);
+  text-align: center;
+}
