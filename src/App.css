@@ -212,3 +212,9 @@
     text-align: center;
     color: var(--text-color);
 }
+
+.wanted-section .buttom-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

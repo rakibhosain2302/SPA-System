@@ -21,6 +21,7 @@ const WantSection = () => {
                         </div>
                     </div>
                 </div>
+                <p className="buttom-content">We’re committed to fostering talent through comprehensive training programs and career development opportunities, creating a bridge between Bangladeshi potential and global opportunities.</p>
             </div>
 
         </>
