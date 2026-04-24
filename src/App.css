@@ -151,7 +151,6 @@
 /* Our Vision */
 .our-vision {
   margin-top: 130px;
-  padding: 20px;
 }
 
 .our-vision h1 {
@@ -174,4 +173,8 @@
     margin-top: 35px;
     margin-bottom: 25px;
     text-align: left;
+}
+
+.wanted-section {
+  margin-top: 130px;
 }
