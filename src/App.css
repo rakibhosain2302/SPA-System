@@ -97,7 +97,7 @@
   margin-bottom: 10px;
 }
 
-.card-right {
+.card-custom {
   background-color: #1a1a1a;
   padding: 20px;
   border-radius: 8px;
@@ -106,7 +106,7 @@
   transition: all 0.4s ease;
 }
 
-.card-right:hover {
+.card-custom:hover {
   border: 1px solid var(--common-color);
   box-shadow:
     0 0 20px rgba(255, 0, 0, 0.4),
@@ -114,7 +114,7 @@
     0 0 40px rgba(255, 0, 0, 0.2);
 }
 
-.card-right .title-right {
+.card-custom .title-right {
   font-size: 26px;
   font-weight: 700;
   margin-top: 35px;
@@ -122,7 +122,7 @@
   text-align: left;
 }
 
-.card-right p {
+.card-custom p {
   font-size: 18px;
   line-height: 1.6;
   color: var(--text-color);
@@ -146,4 +146,32 @@
   line-height: 1.6;
   color: var(--text-color);
   text-align: center;
+}
+
+/* Our Vision */
+.our-vision {
+  margin-top: 130px;
+  padding: 20px;
+}
+
+.our-vision h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 50px;
+}
+
+.our-vision p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-color);
+  text-align: left;
+}
+
+.our-vision .card-custom h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: left;
 }

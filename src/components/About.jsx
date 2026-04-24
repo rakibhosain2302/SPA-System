@@ -18,7 +18,7 @@ const About = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="card-right col-md-5">
+                    <div className="card-custom col-md-5">
                         <div className="title-right">Our Mission</div>
                         <p>OSS has revolutionized merchant services through innovative software solutions while maintaining our core focus on workforce development. We’ve created:</p>
                         <div className="client-section row">
