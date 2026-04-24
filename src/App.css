@@ -168,11 +168,11 @@
 }
 
 .our-vision .card-custom h2 {
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 35px;
-    margin-bottom: 25px;
-    text-align: left;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  text-align: left;
 }
 
 /* Wanted Section */
@@ -180,7 +180,6 @@
 .wanted-section {
   margin-top: 130px;
 }
-
 
 .wanted-section h1 {
   font-size: 38px;
@@ -196,29 +195,29 @@
   text-align: center;
 }
 
-.wanted-section .card-custom{
-   padding-top: 60px;
-   padding-bottom: 60px; 
+.wanted-section .card-custom {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .wanted-section .card-custom h2 {
-    font-size: 50px;
-    font-weight: 700;
-    text-align: center;
-    color: var(--common-color);
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--common-color);
 }
 
 .wanted-section .card-custom p {
-    font-size: 30px;
-    font-weight: 800;
-    text-align: center;
-    color: var(--text-color);
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  color: var(--text-color);
 }
 
-.wanted-section .buttom-content{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+.wanted-section .buttom-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 /* Our Services */
@@ -238,4 +237,55 @@
   font-weight: 700;
   color: var(--text-color);
   text-align: left;
+}
+
+/* Our Team */
+.our-team {
+  margin-top: 130px;
+}
+
+.our-team h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.our-team p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-color);
+  text-align: justify;
+  margin-bottom: 35px;
+}
+
+.our-team .team-card {
+  border: 1px solid var(--text-color);
+  border-radius: 10px;
+  transition: all 0.4s ease;
+  color: var(--text-color);
+  padding: 20px;
+}
+
+.our-team .team-card:hover {
+  border: 1px solid var(--common-color);
+  box-shadow:
+    0 0 20px rgba(255, 0, 0, 0.4),
+    0 0 30px rgba(255, 0, 0, 0.3),
+    0 0 40px rgba(255, 0, 0, 0.2);
+}
+
+.our-team .team-card .img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    object-fit: cover;
+    border: 1px solid var(--common-color);
+}
+
+.our-team .team-card .member-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: var(--common-color);
 }

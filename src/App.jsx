@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import OurVision from './components/OurVision'
 import WantSection from './components/WantSection'
 import OurServices from './components/OurServices'
+import OurTeam from './components/OurTeam'
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
       <WantSection />
 
       <OurServices />
+
+      <OurTeam />
 
       <Footer />
     </>
