@@ -175,6 +175,8 @@
     text-align: left;
 }
 
+/* Wanted Section */
+
 .wanted-section {
   margin-top: 130px;
 }
@@ -217,4 +219,23 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+/* Our Services */
+
+.our-services {
+  margin-top: 130px;
+}
+
+.our-services h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.our-services h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-color);
+  text-align: left;
 }
