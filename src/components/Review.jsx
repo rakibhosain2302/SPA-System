@@ -35,7 +35,7 @@ const reviews = [
     }
 ];
 
-const ReviewCard = ({ name, time, comment, rating }) => {
+const ReviewCard = ({ name, time, comment, rating, image }) => {
 
     const [showFull, setShowFull] = useState(false);
 
@@ -47,7 +47,7 @@ const ReviewCard = ({ name, time, comment, rating }) => {
             <div className="review-header">
                 <div className="rv-content">
                     <img
-                        src="https://via.placeholder.com/150"
+                        src={image}
                         alt={name}
                         className="reviewer-img"
                     />
