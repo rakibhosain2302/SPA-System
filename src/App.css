@@ -330,14 +330,6 @@
   border-radius: 10px;
 }
 
-/* Image */
-.award-img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  display: block;
-}
-
 /* Overlay */
 .overlay {
   position: absolute;
@@ -388,4 +380,79 @@
 
 .award-section .c2{
     height: 100%;
+}
+
+
+/* Review Section */
+.review-section {
+  margin-top: 130px;
+}
+
+.review-section h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 50px;
+}
+
+
+/* Left Side */
+.review-left {
+    width: 25%;
+}
+
+.review-left h5 {
+    font-size: 16px;
+}
+
+/* Right Side */
+.review-right {
+    width: 75%;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+/* Card */
+.review-card {
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* Header */
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+/* Stars */
+.stars {
+    color: gold;
+    margin: 5px 0;
+}
+
+/* Button */
+.review-btn {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Read More */
+.read-more-btn {
+    background: none;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 0;
+}
+
+.read-more-btn:hover {
+    color: #fff;
 }
