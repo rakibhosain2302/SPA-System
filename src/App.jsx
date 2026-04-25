@@ -10,6 +10,7 @@ import OurServices from './components/OurServices'
 import OurTeam from './components/OurTeam'
 import Award from './components/Award'
 import Review from './components/Review'
+import Members from './components/Members'
 
 function App() {
 
@@ -32,6 +33,8 @@ function App() {
       <Award />
 
       <Review />
+
+      <Members />
 
       <Footer />
     </>
