@@ -13,6 +13,7 @@ import Review from './components/Review'
 import Members from './components/Members'
 import ContactUs from './components/Contract'
 import Maps from './components/Maps'
+import FloatingContact from './components/FloatingContact'
 
 function App() {
 
@@ -41,6 +42,8 @@ function App() {
       <ContactUs  />
 
       <Maps />
+
+      <FloatingContact />
 
       <Footer />
     </>
