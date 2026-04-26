@@ -562,7 +562,7 @@
   margin-top: 150px;
 }
 
-.map-section h2{
+.map-section h2 {
   font-size: 45px;
   font-weight: 700;
   color: var(--text-color);
@@ -581,11 +581,77 @@
   border: none;
 }
 
-
 /* footer */
 
-.footer p{
+.footer p {
   font-size: 16px;
   color: var(--text-color);
   margin: 20px 30px;
+}
+
+/* Floating Contact */
+
+.floating-contact {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  z-index: 999;
+}
+
+/* Main Button */
+.main-btn {
+  width: 60px;
+  height: 60px;
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+/* Options container */
+.contact-options {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+
+  transition: 0.3s ease;
+}
+
+/* Show on hover */
+.contact-options.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* Icons */
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-icon:hover {
+  background: #cc0000;
 }
