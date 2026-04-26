@@ -12,6 +12,7 @@ import Award from './components/Award'
 import Review from './components/Review'
 import Members from './components/Members'
 import ContactUs from './components/Contract'
+import Maps from './components/Maps'
 
 function App() {
 
@@ -38,6 +39,8 @@ function App() {
       <Members />
 
       <ContactUs  />
+
+      <Maps />
 
       <Footer />
     </>

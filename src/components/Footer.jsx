@@ -1,8 +1,8 @@
 
 const Footer = () => {
     return (
-        <footer>
-            <p>© 2026 Offshore Staffing Solutions</p>
+        <footer className="footer">
+            <p>© {new Date().getFullYear()} Offshore Staffing Solutions</p>
         </footer>
     );
 };
