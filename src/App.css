@@ -501,7 +501,6 @@
   display: none;
 }
 
-
 /* Members Section */
 .members-section {
   margin-top: 130px;
@@ -513,11 +512,37 @@
   margin-bottom: 50px;
 }
 
-
 .members-section img {
   margin: 40px 0;
   width: 300px;
   height: 300px;
   object-fit: cover;
 }
+
+/* Contact Us */
+
+.contact-section {
+  margin-top: 130px;
+}
+
+.contact-section h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.contact-section-left {
+  text-align: left;
+  color: var(--text-color);
+}
+
+.contact-section-left .general-email, .hr-email, .ban-telephone, .us-telephone {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
 
