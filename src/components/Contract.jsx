@@ -78,72 +78,81 @@ const ContactUs = () => {
 
                 {/* Right Side - Form */}
                 <div className="col-md-6 contact-section-right">
-                    <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-8">
-                        <h2 className="text-3xl font-bold mb-8">Stay Updated</h2>
+                    <div>
+                        <h2 className="fw-bold mb-4">Stay Updated</h2>
 
-                        <form onSubmit={handleSubmit} className="space-y-6">
-                            <div>
+                        <form onSubmit={handleSubmit}>
+
+                            {/* Name */}
+                            <div className="mb-3">
                                 <input
                                     type="text"
                                     name="name"
                                     value={formData.name}
                                     onChange={handleChange}
                                     placeholder="Name"
-                                    className="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-5 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-blue-600 transition-all"
+                                    className="form-control bg-dark text-white border-secondary"
                                     required
                                 />
                             </div>
 
-                            <div>
+                            {/* Email */}
+                            <div className="mb-3">
                                 <input
                                     type="email"
                                     name="email"
                                     value={formData.email}
                                     onChange={handleChange}
                                     placeholder="Email"
-                                    className="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-5 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-blue-600 transition-all"
+                                    className="form-control bg-dark text-white border-secondary"
                                     required
                                 />
                             </div>
 
-                            <div>
+                            {/* Phone */}
+                            <div className="mb-3">
                                 <input
                                     type="tel"
                                     name="phone"
                                     value={formData.phone}
                                     onChange={handleChange}
                                     placeholder="Phone Number"
-                                    className="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-5 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-blue-600 transition-all"
+                                    className="form-control bg-dark text-white border-secondary"
                                 />
                             </div>
 
-                            <div>
+                            {/* Message */}
+                            <div className="mb-3">
                                 <textarea
                                     name="message"
                                     value={formData.message}
                                     onChange={handleChange}
                                     placeholder="Your Message..."
-                                    rows="6"
-                                    className="w-full bg-zinc-900 border border-zinc-700 rounded-2xl px-5 py-4 text-white placeholder-gray-500 focus:outline-none focus:border-blue-600 transition-all resize-y"
+                                    rows="5"
+                                    className="form-control bg-dark text-white border-secondary"
                                     required
                                 ></textarea>
                             </div>
 
-                            {/* reCAPTCHA Error Message (as shown in your image) */}
-                            <div className="bg-white/10 border border-red-500/30 rounded-xl p-4 text-red-400 text-sm flex items-center gap-3">
-                                <div className="w-6 h-6 bg-blue-600 rounded flex items-center justify-center text-xs font-bold">R</div>
+                            {/* Error Box */}
+                            <div className="alert alert-danger d-flex align-items-center gap-2">
+                                <div className="bg-primary text-white px-2 py-1 rounded">R</div>
                                 <div>
-                                    <p className="font-medium">ERROR for site owner:</p>
-                                    <p>Invalid domain for site key</p>
+                                    <strong>ERROR for site owner:</strong><br />
+                                    Invalid domain for site key
                                 </div>
                             </div>
 
-                            <button
-                                type="submit"
-                                className="w-full bg-red-600 hover:bg-red-700 transition-colors text-white font-semibold py-4 rounded-xl text-lg"
-                            >
-                                Send
-                            </button>
+                            {/* Button */}
+                            <div className="text-start">
+                                <button
+                                    type="submit"
+                                    className="btn btn-danger w-25"
+                                >
+                                    Send
+                                </button>
+                            </div>
+
                         </form>
                     </div>
                 </div>

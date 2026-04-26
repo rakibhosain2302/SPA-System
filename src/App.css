@@ -545,4 +545,13 @@
   gap: 10px;
 }
 
+.contact-section-right h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--text-color);
+  text-align: left;
+  margin-bottom: 20px;
+  
+}
+
 
